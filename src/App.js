@@ -132,6 +132,7 @@ function App() {
   );
 
   return (
+    <div className="calculator-container">
     <div className="calculator-grid">
       <div className="output">
         <div className="previous-operand">
@@ -170,6 +171,7 @@ function App() {
       >
         =
       </button>
+    </div>
     </div>
   );
 }
